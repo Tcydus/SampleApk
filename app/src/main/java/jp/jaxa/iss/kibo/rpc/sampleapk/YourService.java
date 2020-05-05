@@ -16,14 +16,14 @@ public class YourService extends KiboRpcService {
     protected void runPlan1(){
         api.judgeSendStart();
 
-        moveToWrapper(10.6, -4.3, 5, 0, 0, -0.7071068, 0.7071068);
+        moveToWrapper(9.6, -4.3, 4, 0, 0, -0.7071068, 0.7071068);
         moveToWrapper(11, -4.3, 5, 0, 0, -0.7071068, 0.7071068);
         moveToWrapper(11, -5.7, 5, 0, 0, -0.7071068, 0.7071068);
         moveToWrapper(11.5, -5.7, 4.5, 0, 0, 0, 1);
         moveToWrapper(11, -6, 5.55, 0, -0.7071068, 0, 0.7071068);
 
         api.laserControl(true);
-        moveToWrapper(11.1, -6, 5.55, 0, -0.7071068, 0, 0.7071068);
+        moveToWrapper(11.1, -5, 5.55, 0, -0.7071068, 0, 0.7071068);
 
         api.judgeSendFinishSimulation();
     }
