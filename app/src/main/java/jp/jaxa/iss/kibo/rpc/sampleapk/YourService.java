@@ -23,7 +23,7 @@ public class YourService extends KiboRpcService {
         moveToWrapper(11, -6, 5.55, 0, -0.7071068, 0, 0.7071068);
 
         api.laserControl(true);
-        moveToWrapper(11.1, -5, 5.55, 0, -0.7071068, 0, 0.7071068);
+        moveToWrapper(11.1, -4, 5.55, 0, -0.7071068, 0, 0.7071068);
 
         api.judgeSendFinishSimulation();
     }
